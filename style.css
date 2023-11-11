@@ -29,11 +29,31 @@ a {
 
 }
 
+a:visited {
+    color: #222222;
+}
+
+a:link {
+    color: #222222;
+}
+
+a:hover {
+    color: hotpink;
+}
+
 .profile-picture {
 
     width: 75%;
     height: 75%;
 
+
+}
+
+.welcome-text {
+
+    font-size: 45px;
+    display: flex;
+    text-align: center;
 }
 
 .welcome-to-mypage {
@@ -80,4 +100,46 @@ a {
 
 .recent-work {
     text-align: center;
+    font-size: 40px;
+}
+
+.woy-container {
+
+    display: flex;
+}
+
+.woy-intro-pic {
+
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+
+.woy-text {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    align-self: center;
+
+}
+
+.woy-actual-image {
+
+    width: 100%;
+
+}
+
+.strategies-section {
+
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
 }
