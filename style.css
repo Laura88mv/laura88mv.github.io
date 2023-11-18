@@ -143,3 +143,35 @@ a:hover {
 
 
 }
+
+.woy-images-project {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 20px;
+}
+
+.picture-one {
+
+    width: 50%;
+}
+
+.picture-two {
+    width: 50%;
+}
+
+.other-campaings {
+
+    padding: 20px;
+    justify-content: center;
+}
+
+.contact-me-section {
+
+    padding: 20px;
+    font-size: 45px;
+}
